@@ -2855,7 +2855,7 @@ header .logo {
   display: none;
   top: 50%;
   left: 50%;
-  width: 120px;
+  width: 200%;
 }
 header .logo h1 {
   font: 0/0 a;
@@ -2865,7 +2865,7 @@ header .logo h1 {
   border: 0;
 }
 header .logo img {
-  width: 100%;
+  width: 200%;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation : landscape), only screen and (min-width: 1025px) {
   header .logo {
@@ -3816,4 +3816,8 @@ main .overlay {
 }
 .overlay-alt {
   background-color: rgba(108, 155, 174, 0.5);
+}
+
+.imgLogo{
+  z-index: 999;
 }
